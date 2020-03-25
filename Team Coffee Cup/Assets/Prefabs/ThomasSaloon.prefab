@@ -2817,6 +2817,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8458487727026505970}
+  - component: {fileID: 8637435625309601942}
   m_Layer: 0
   m_Name: GameObject__1_
   m_TagString: Untagged
@@ -2839,6 +2840,25 @@ Transform:
   m_Father: {fileID: 4824837651160401889}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &8637435625309601942
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3260849685299112852}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4c8946d4c55e1ee4ab0f3f10de3200cf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3561450085810657612
 GameObject:
   m_ObjectHideFlags: 0
@@ -5734,6 +5754,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1953269602782636580}
+  - component: {fileID: 3527438816728477009}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -5756,6 +5777,25 @@ Transform:
   m_Father: {fileID: 4824837651160401889}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &3527438816728477009
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5667236150839623909}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4c8946d4c55e1ee4ab0f3f10de3200cf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5675476493889498652
 GameObject:
   m_ObjectHideFlags: 0
@@ -9041,7 +9081,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4824837651160401889}
-  - component: {fileID: 3206360102546975387}
   m_Layer: 0
   m_Name: ThomasSaloon
   m_TagString: Untagged
@@ -9188,25 +9227,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &3206360102546975387
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8407690124020577778}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 32adfadd491e71040a2ea1b88385971a, type: 3}
-  m_Controller: {fileID: 9100000, guid: 4c8946d4c55e1ee4ab0f3f10de3200cf, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8410932804379188688
 GameObject:
   m_ObjectHideFlags: 0

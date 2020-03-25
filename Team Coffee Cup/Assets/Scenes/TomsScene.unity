@@ -354,6 +354,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d450eb09ebadaee49abc14d0ea6dcc8d, type: 3}
+--- !u!1 &744299497 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7822035105728320854, guid: 5d2c418782408fc498c6b863a95c4cc6,
+    type: 3}
+  m_PrefabInstance: {fileID: 674812709016427816}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &744299499
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744299497}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b963e7feba27eed4e84b954c5c931d02, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1084239985
 GameObject:
   m_ObjectHideFlags: 0
@@ -668,6 +693,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9015414213ed3a541b305dd1fa32f5df, type: 3}
+--- !u!1 &1851406992 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4823399830536321625, guid: 5d2c418782408fc498c6b863a95c4cc6,
+    type: 3}
+  m_PrefabInstance: {fileID: 674812709016427816}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1851406994
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851406992}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bb0cf62a1a96d52468d4272dedeaace9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1963305637
 PrefabInstance:
   m_ObjectHideFlags: 0

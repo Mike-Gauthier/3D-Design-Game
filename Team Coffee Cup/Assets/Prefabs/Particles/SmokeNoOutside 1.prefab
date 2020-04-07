@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4818519000811328500}
   - component: {fileID: 4818519000811328501}
   m_Layer: 0
-  m_Name: SmokeNoOutside
+  m_Name: SmokeNoOutside 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9463,7 +9463,7 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: fd49e5ce0e38f3c40804bdd9225d34d9, type: 2}
-  - {fileID: 2100000, guid: fd49e5ce0e38f3c40804bdd9225d34d9, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

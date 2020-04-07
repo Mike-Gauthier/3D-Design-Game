@@ -52,11 +52,11 @@ public class AIfollow : MonoBehaviour
 
             if (myLinkedList.Count != 0)
             {
-                newPosition = myLinkedList.Last.Value.transform.parent.position + new Vector3(0, 0, 2);
+                newPosition = myLinkedList.Last.Value.transform.parent.position + new Vector3(0, 0, 1);
             }
             else
             {
-                newPosition = OldPosition + new Vector3(0, 0, 2); //Controls location of new rail. 
+                newPosition = OldPosition + new Vector3(0, 0, 1); //Controls location of new rail. 
             }
 
             actualRail = Instantiate(rail, newPosition, rail.transform.rotation);

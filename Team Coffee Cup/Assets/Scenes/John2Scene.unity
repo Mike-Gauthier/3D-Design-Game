@@ -345,6 +345,11 @@ PrefabInstance:
       propertyPath: m_Colors.m_NormalColor.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3601905025614099178, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_Text
+      value: Press the Space Bar to create a straight train track.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8, type: 3}
 --- !u!1 &120082286

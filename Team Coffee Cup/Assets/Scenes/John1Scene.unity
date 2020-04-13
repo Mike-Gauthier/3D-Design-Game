@@ -401,7 +401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77c957a520f1be44f9c0600e38bb854a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  game: 
+  game: MainScene
   controlMenu: John2Scene
   mainMenu: John1Scene
 --- !u!4 &596427371

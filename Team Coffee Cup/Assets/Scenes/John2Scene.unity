@@ -345,10 +345,75 @@ PrefabInstance:
       propertyPath: m_Colors.m_NormalColor.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3601905023974280113, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -151
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601905024588992989, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_Text
+      value: Press Q, W, and E to change track types
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601905024588992994, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601905024746643072, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_Text
+      value: 'The goal is to place the tracks and avoid obstacles '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601905024746643073, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601905024876682518, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_Text
+      value: Controls
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601905024876682519, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 166
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601905024876682519, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.7952
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601905024876682519, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.7952
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601905024876682519, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.7952
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601905024966447340, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -81
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601905024966447343, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_Text
+      value: This is a work in progress alpha
+      objectReference: {fileID: 0}
     - target: {fileID: 3601905025614099178, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
         type: 3}
       propertyPath: m_Text
-      value: Press the Space Bar to create a straight train track.
+      value: Press the Space Bar place tracks.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601905025614099179, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 51.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8, type: 3}

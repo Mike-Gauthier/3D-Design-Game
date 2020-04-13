@@ -3834,7 +3834,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timer: 0
   chance: 0
-  obstacles: {fileID: -927199367670048503, guid: 9ac392abdd45a9c46bd83ae113ef865c,
+  obstacles: {fileID: 5539454871122939222, guid: 63d1ee633cf2520448def5e0435c81ac,
     type: 3}
 --- !u!1 &1532224144
 GameObject:

@@ -2818,9 +2818,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OldPosition: {x: 0, y: 0, z: 0}
-  railstraight: {fileID: 0}
-  railleft: {fileID: 0}
-  railright: {fileID: 0}
+  RailNumber: {fileID: 0}
+  railstraight: {fileID: 1254428924941629974, guid: 77b2287e5591ab1458ddfd84e67d7bc8,
+    type: 3}
+  railleft: {fileID: 5948972302573875370, guid: 0cc315ce32b14cc46a84227ad0ea934f,
+    type: 3}
+  railright: {fileID: 5948972302573875370, guid: 0cc315ce32b14cc46a84227ad0ea934f,
+    type: 3}
   Swaprail: 0
   target: {fileID: 353635628}
   speeed: 3

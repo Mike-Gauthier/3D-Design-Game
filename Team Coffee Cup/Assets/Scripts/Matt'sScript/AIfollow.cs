@@ -17,6 +17,11 @@ public class AIfollow : MonoBehaviour
     /////
     public Vector3 OldPosition;
 
+    ///public texts
+
+    public Text RailNumber;
+
+
     //list of rails
 
     public GameObject railstraight;
@@ -49,6 +54,10 @@ public class AIfollow : MonoBehaviour
 
 
     { //@TODO }
+
+
+        //button controls - to control which rail is being placed
+
 
         if(myLinkedList.Count !=0)
         {

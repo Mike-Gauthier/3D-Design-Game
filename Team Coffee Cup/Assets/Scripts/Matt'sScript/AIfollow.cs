@@ -16,9 +16,15 @@ public class AIfollow : MonoBehaviour
     
     /////
     public Vector3 OldPosition;
+
+    //list of rails
+
     public GameObject railstraight;
     public GameObject railleft;
     public GameObject railright;
+
+    //Change rail
+    public int Swaprail;
     
     public LinkedList<GameObject> myLinkedList;
     //////
@@ -38,6 +44,10 @@ public class AIfollow : MonoBehaviour
         print(myLinkedList.Count);
     }
     void Update()
+
+
+
+
     { //@TODO }
 
         if(myLinkedList.Count !=0)

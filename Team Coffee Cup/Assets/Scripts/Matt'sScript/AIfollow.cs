@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AIfollow : MonoBehaviour
 {
@@ -11,9 +12,14 @@ public class AIfollow : MonoBehaviour
     public float yDirection = 0f;
     public float zDirection = 2f;
     */
+
+    
     /////
     public Vector3 OldPosition;
-    public GameObject rail;
+    public GameObject railstraight;
+    public GameObject railleft;
+    public GameObject railright;
+    
     public LinkedList<GameObject> myLinkedList;
     //////
     public Transform target;
@@ -59,7 +65,7 @@ public class AIfollow : MonoBehaviour
                 newPosition = OldPosition + new Vector3(0, 0, 1); //Controls location of new rail. 
             }
 
-            actualRail = Instantiate(rail, newPosition, rail.transform.rotation);
+            actualRail = Instantiate(railstraight, newPosition, railstraight.transform.rotation);
             myLinkedList.AddLast(actualRail.transform.GetChild(0).gameObject);
             print(myLinkedList.Count);
         }

@@ -629,6 +629,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 8425727994083495367, guid: 47dc08c369473204aa6e0057d88b141b,
+        type: 3}
+      propertyPath: m_Text
+      value: 'A game by:
+
+        John Lynch, Matthew Lyons
+
+        Everyone else, put your name in as needed.'
+      objectReference: {fileID: 0}
     - target: {fileID: 8425727994995210155, guid: 47dc08c369473204aa6e0057d88b141b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

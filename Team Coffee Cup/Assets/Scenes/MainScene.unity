@@ -4276,7 +4276,7 @@ MonoBehaviour:
   railstraight: {fileID: 1254428924941629974, guid: 77b2287e5591ab1458ddfd84e67d7bc8,
     type: 3}
   railleft: {fileID: 375106442617334801, guid: d136153808f2614429532c00b67dfd1e, type: 3}
-  railright: {fileID: 7804102096047707671, guid: 79bd7b38fb0e935469e855456b2a4f3c,
+  railright: {fileID: 375106442617334801, guid: 6360a20fb97623748947446ef2d6abc6,
     type: 3}
   CurrentRail: {fileID: 1254428924941629974, guid: 77b2287e5591ab1458ddfd84e67d7bc8,
     type: 3}
@@ -4828,6 +4828,36 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1891608161}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1952182068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1952182069}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1952182069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952182068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -57.28754, y: 21.16616, z: 19.909754}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1955335963
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -7,15 +7,15 @@ TerrainLayer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Mulch
-  m_DiffuseTexture: {fileID: 2800000, guid: 7abe8729bd905524ebfb46ff715182d3, type: 3}
-  m_NormalMapTexture: {fileID: 2800000, guid: a4d994482a196d14c8c61006c5e6d466, type: 3}
+  m_DiffuseTexture: {fileID: 2800000, guid: 4d3968eb4a0540f459ae4ba9e413c513, type: 3}
+  m_NormalMapTexture: {fileID: 2800000, guid: 43b8951201c14334cab02941f6fe8ad2, type: 3}
   m_MaskMapTexture: {fileID: 0}
-  m_TileSize: {x: 15, y: 15}
+  m_TileSize: {x: 5, y: 5}
   m_TileOffset: {x: 0, y: 0}
   m_Specular: {r: 0, g: 0, b: 0, a: 0}
   m_Metallic: 0
   m_Smoothness: 0
-  m_NormalScale: 1
+  m_NormalScale: 0.29
   m_DiffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
   m_DiffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
   m_MaskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}

@@ -348,22 +348,55 @@ PrefabInstance:
     - target: {fileID: 3601905023974280113, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -151
+      value: -121.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3601905023974280115, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b2129ea8135146146814d5173727f2df,
+        type: 3}
     - target: {fileID: 3601905024588992989, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
         type: 3}
       propertyPath: m_Text
       value: Press Q, W, and E to change track types
       objectReference: {fileID: 0}
+    - target: {fileID: 3601905024588992989, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 30b414cbcd50e5a4eae083d7b40b3005,
+        type: 3}
+    - target: {fileID: 3601905024588992989, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 22
+      objectReference: {fileID: 0}
     - target: {fileID: 3601905024588992994, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 112
+      value: 41.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601905024588992994, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 14.2
       objectReference: {fileID: 0}
     - target: {fileID: 3601905024746643072, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
         type: 3}
       propertyPath: m_Text
       value: 'The goal is to place the tracks and avoid obstacles '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601905024746643072, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 30b414cbcd50e5a4eae083d7b40b3005,
+        type: 3}
+    - target: {fileID: 3601905024746643072, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 3601905024746643073, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
         type: 3}
@@ -375,45 +408,94 @@ PrefabInstance:
       propertyPath: m_Text
       value: Controls
       objectReference: {fileID: 0}
+    - target: {fileID: 3601905024876682518, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 30b414cbcd50e5a4eae083d7b40b3005,
+        type: 3}
+    - target: {fileID: 3601905024876682518, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 35
+      objectReference: {fileID: 0}
     - target: {fileID: 3601905024876682519, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 166
+      value: 144.1
       objectReference: {fileID: 0}
     - target: {fileID: 3601905024876682519, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 3.7952
+      value: 1.05
       objectReference: {fileID: 0}
     - target: {fileID: 3601905024876682519, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 3.7952
+      value: 1.04
       objectReference: {fileID: 0}
     - target: {fileID: 3601905024876682519, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 3.7952
+      value: 1.08
       objectReference: {fileID: 0}
     - target: {fileID: 3601905024966447340, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -81
+      value: -68.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601905024966447340, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 13.6
       objectReference: {fileID: 0}
     - target: {fileID: 3601905024966447343, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
         type: 3}
       propertyPath: m_Text
       value: This is a work in progress alpha
       objectReference: {fileID: 0}
+    - target: {fileID: 3601905024966447343, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 30b414cbcd50e5a4eae083d7b40b3005,
+        type: 3}
+    - target: {fileID: 3601905024966447343, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 3601905025363912254, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 30b414cbcd50e5a4eae083d7b40b3005,
+        type: 3}
+    - target: {fileID: 3601905025363912254, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 3601905025614099178, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
         type: 3}
       propertyPath: m_Text
       value: Press the Space Bar place tracks.
       objectReference: {fileID: 0}
+    - target: {fileID: 3601905025614099178, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 30b414cbcd50e5a4eae083d7b40b3005,
+        type: 3}
+    - target: {fileID: 3601905025614099178, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 27
+      objectReference: {fileID: 0}
     - target: {fileID: 3601905025614099179, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 51.5
+      value: 92.9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbc7cf49ab9d0c847aa34aa6d6c520b8, type: 3}
@@ -1794,6 +1876,81 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1947321186}
   m_Mesh: {fileID: -4975977682335552859, guid: 98e1b38f4fe33774ca40dec6ea356442, type: 3}
+--- !u!1 &2035814585
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2035814588}
+  - component: {fileID: 2035814587}
+  - component: {fileID: 2035814586}
+  m_Layer: 0
+  m_Name: Terrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!154 &2035814586
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035814585}
+  m_Material: {fileID: 0}
+  m_Enabled: 1
+  m_TerrainData: {fileID: 15600000, guid: a741739811000224f8afeb850126f1f1, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!218 &2035814587
+Terrain:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035814585}
+  m_Enabled: 1
+  serializedVersion: 5
+  m_TerrainData: {fileID: 15600000, guid: a741739811000224f8afeb850126f1f1, type: 2}
+  m_TreeDistance: 5000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 80
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 1000
+  m_HeightmapMaximumLOD: 0
+  m_ShadowCastingMode: 2
+  m_DrawHeightmap: 1
+  m_DrawInstanced: 0
+  m_DrawTreesAndFoliage: 1
+  m_ReflectionProbeUsage: 1
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 0
+  m_DeringLightProbesForTrees: 1
+  m_ScaleInLightmap: 0.0256
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+  m_AllowAutoConnect: 1
+--- !u!4 &2035814588
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035814585}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -342, y: -5.35, z: -241.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2096162684
 GameObject:
   m_ObjectHideFlags: 0

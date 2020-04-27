@@ -115,7 +115,8 @@ public class AIfollow : MonoBehaviour
 
             if (myLinkedList.Count != 0)
             {
-                newPosition = myLinkedList.Last.Value.transform.parent.position + new Vector3(0, 0, 1); // Create public variables
+                if (actualRail == null) { Debug.Log("railcomp"); }
+                newPosition = myLinkedList.Last.Value.transform.parent.position + actualRail.GetComponent<Rail>().RailPosition(); // Create public variables
             }
             else
             {

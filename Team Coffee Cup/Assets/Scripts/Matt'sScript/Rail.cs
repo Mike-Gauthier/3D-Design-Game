@@ -5,4 +5,5 @@ using UnityEngine;
 public abstract class Rail : MonoBehaviour
 {
     public abstract Vector3 RailPosition();
+    public abstract Quaternion RailRotation();
 }

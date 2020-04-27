@@ -4,11 +4,17 @@ using UnityEngine;
 
 public class LeftRail : Rail
 {
-
+    public float XDirection;
+    
+    public float ZDirection;
 
     public override Vector3 RailPosition()
     {
-        return new Vector3(0, 0, 0);
+        return new Vector3(XDirection, 0, ZDirection);  //reminder to remove public variables
+    }
+    public override Quaternion RailRotation()
+    {
+        return new Quaternion(0, 0, 0, 0);
     }
 
     // Start is called before the first frame update

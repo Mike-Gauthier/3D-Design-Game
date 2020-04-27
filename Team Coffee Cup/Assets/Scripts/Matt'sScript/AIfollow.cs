@@ -121,7 +121,7 @@ public class AIfollow : MonoBehaviour
             {
                 newPosition = OldPosition + new Vector3(0, 0, 1); //Controls location of new rail. 
             }
-
+            
             actualRail = Instantiate(CurrentRail, newPosition, CurrentRail.transform.rotation);
             
             myLinkedList.AddLast(actualRail.transform.GetChild(0).gameObject);

@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RailStraight : MonoBehaviour, Rail
+public class RailStraight : Rail
 {
 
 
     public override Vector3 RailPosition()
     {
-
+        return new Vector3(0, 0, 0);
     }
 
     // Start is called before the first frame update

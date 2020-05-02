@@ -7,15 +7,15 @@ TerrainLayer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: GrassDead
-  m_DiffuseTexture: {fileID: 2800000, guid: 44c1216a5ab027e428aaae8174c73de3, type: 3}
-  m_NormalMapTexture: {fileID: 2800000, guid: dac5d575c9bd9074e834a39cac1f459f, type: 3}
+  m_DiffuseTexture: {fileID: 2800000, guid: a785f0c7906748e4fbbb1e2970bc85e8, type: 3}
+  m_NormalMapTexture: {fileID: 2800000, guid: 9679905b7d0e2ba48b5d7211aaacfd78, type: 3}
   m_MaskMapTexture: {fileID: 0}
   m_TileSize: {x: 5, y: 5}
   m_TileOffset: {x: 0, y: 0}
   m_Specular: {r: 0, g: 0, b: 0, a: 0}
   m_Metallic: 0
   m_Smoothness: 0
-  m_NormalScale: 1
+  m_NormalScale: 0.55
   m_DiffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
   m_DiffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
   m_MaskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}

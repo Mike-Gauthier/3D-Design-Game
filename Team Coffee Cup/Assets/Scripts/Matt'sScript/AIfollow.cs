@@ -46,7 +46,7 @@ public class AIfollow : MonoBehaviour
         target = target.GetChild(0);
         Debug.Log("update");
         myLinkedList = new LinkedList<GameObject>();
-        //actualRail = Instantiate(rail);
+        //actualRail = Instantiate(rail);-
         
         
         print(myLinkedList.Count);
@@ -59,7 +59,7 @@ public class AIfollow : MonoBehaviour
 
     { //@TODO }
 
-        
+        transform.LookAt(target, Vector3.up);
 
         if (Input.GetKeyDown("q"))
         {
@@ -99,6 +99,7 @@ public class AIfollow : MonoBehaviour
         if (myLinkedList.Count !=0)
         {
             target = myLinkedList.Last.Value.transform;
+            //transform.LookAt(target, Vector3.up);
         }
 
 
@@ -114,14 +115,16 @@ public class AIfollow : MonoBehaviour
 
             if (myLinkedList.Count != 0)
             {
-                newPosition = myLinkedList.Last.Value.transform.parent.position + new Vector3(0, 0, 1);
+                if (actualRail == null) { Debug.Log("railcomp"); }
+                newPosition = myLinkedList.Last.Value.transform.parent.position + actualRail.GetComponent<Rail>().RailPosition(); // Create public variables
             }
             else
             {
                 newPosition = OldPosition + new Vector3(0, 0, 1); //Controls location of new rail. 
             }
-
+            
             actualRail = Instantiate(CurrentRail, newPosition, CurrentRail.transform.rotation);
+            
             myLinkedList.AddLast(actualRail.transform.GetChild(0).gameObject);
             print(myLinkedList.Count);
         }

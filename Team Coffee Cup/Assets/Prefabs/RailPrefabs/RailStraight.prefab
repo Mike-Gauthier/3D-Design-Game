@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6514737313669919283}
   - component: {fileID: 672292513805815498}
   - component: {fileID: 314875580763375400}
+  - component: {fileID: 6816869307785130904}
   m_Layer: 0
   m_Name: RailStraight
   m_TagString: Untagged
@@ -94,6 +95,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 126.6033, y: 140.28903, z: 100.00002}
   m_Center: {x: 0.5449983, y: 84.577255, z: 0}
+--- !u!114 &6816869307785130904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254428924941629974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 310efc1b5ca5e4b4283a83e235aab9f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  XDirection: 0
+  ZDirection: 1
 --- !u!1 &8959601540834188368
 GameObject:
   m_ObjectHideFlags: 0

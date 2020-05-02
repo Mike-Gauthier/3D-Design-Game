@@ -3,7 +3,13 @@ guid: 2c693730b0aa88e47ab5f9b2144a5ad0
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StockadeTex
+    second: {fileID: 6626414407115973364, guid: 2c693730b0aa88e47ab5f9b2144a5ad0,
+      type: 3}
   materials:
     importMaterials: 1
     materialName: 0

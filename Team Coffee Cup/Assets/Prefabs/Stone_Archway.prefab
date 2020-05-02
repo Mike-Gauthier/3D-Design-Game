@@ -302,11 +302,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2304084268989514881}
   m_LocalRotation: {x: -4.333522e-19, y: -0.7106365, z: 4.333522e-19, w: 0.70355934}
-  m_LocalPosition: {x: -0, y: 0.10661323, z: 0}
-  m_LocalScale: {x: 0.08837962, y: 0.08837962, z: 0.08837962}
+  m_LocalPosition: {x: 0, y: -0.011186734, z: 0}
+  m_LocalScale: {x: 0.0883796, y: 0.08837962, z: 0.0883796}
   m_Children: []
-  m_Father: {fileID: 7184190846086242774}
-  m_RootOrder: 25
+  m_Father: {fileID: 8318065303561972251}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1580007782271593836
 MeshFilter:
@@ -882,6 +882,57 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &4781594932968198874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8318065303561972251}
+  - component: {fileID: 724747879965751170}
+  m_Layer: 0
+  m_Name: Bell
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8318065303561972251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4781594932968198874}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.1178, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7510141040048631138}
+  m_Father: {fileID: 7184190846086242774}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &724747879965751170
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4781594932968198874}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f4c827e7dec097e48bc874ee55ec7c9b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5335064933149885487
 GameObject:
   m_ObjectHideFlags: 0
@@ -1090,7 +1141,7 @@ Transform:
   - {fileID: 4993009292604689749}
   - {fileID: 4127639505956945446}
   - {fileID: 8080922256745410568}
-  - {fileID: 7510141040048631138}
+  - {fileID: 8318065303561972251}
   - {fileID: 5230915555169391487}
   m_Father: {fileID: 0}
   m_RootOrder: 0

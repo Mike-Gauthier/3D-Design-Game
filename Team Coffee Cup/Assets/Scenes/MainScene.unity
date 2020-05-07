@@ -6827,19 +6827,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3483657296133453300}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &1702956210
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8296172668877755028}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 6.513362, y: 3.1627018, z: 3.584648}
-  m_Center: {x: 0.48015922, y: 1.9114077, z: -0.23778406}
 --- !u!114 &1702956212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8325,6 +8312,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 143021443}
     m_Modifications:
+    - target: {fileID: 438666353581781134, guid: 5c7c84ef8e94f9e409212caf9b96b997,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 438666353581781134, guid: 5c7c84ef8e94f9e409212caf9b96b997,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438666353581781134, guid: 5c7c84ef8e94f9e409212caf9b96b997,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6190204672444437445, guid: 5c7c84ef8e94f9e409212caf9b96b997,
         type: 3}
       propertyPath: m_Name
@@ -8385,7 +8387,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7772922629739535477, guid: 5c7c84ef8e94f9e409212caf9b96b997,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3507659808407465100, guid: 5c7c84ef8e94f9e409212caf9b96b997, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5c7c84ef8e94f9e409212caf9b96b997, type: 3}
 --- !u!4 &2141807680 stripped
 Transform:
@@ -9641,13 +9649,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5006512735657500807}
-  - component: {fileID: 1702956210}
   - component: {fileID: 1702956212}
   - component: {fileID: 8296172668877755030}
   - component: {fileID: 8296172668877755029}
+  - component: {fileID: 8296172668877755031}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9844,6 +9852,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &8296172668877755031
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8296172668877755028}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.3758197, y: 3.952732, z: 7.314927}
+  m_Center: {x: -0.12553886, y: 1.4763662, z: -0.44663358}
 --- !u!33 &8446306047300096528
 MeshFilter:
   m_ObjectHideFlags: 0

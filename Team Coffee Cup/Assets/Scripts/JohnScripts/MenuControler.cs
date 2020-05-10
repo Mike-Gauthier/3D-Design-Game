@@ -17,6 +17,11 @@ public class MenuControler : MonoBehaviour
 
     }
 
+    public void Restart()
+    {
+        SceneManager.LoadScene(game);
+    }
+
     public void Play()
     {
         //A zooming in will be added later.
